@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        article {
+            flex: 3;
+            margin-right: 20px;
+        }
+        article h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        aside {
+            flex: 1;
+        }
+        aside h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>What is Full Stack Development ?</h1>
+            <p>Full Stack Development refers to the development of both front end(client side) and back end(server side) portions of web application.</p>
+            <p>A full-stack developer can work in-house or at a computer development company that engineers websites, software, and other components for other businesses.</p>
+        </article>
+
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#article1">Introduction to HTML</a></li>
+                <li><a href="#article2">Benefits of Semantic HTML</a></li>
+                <li><a href="#article3">HTML5 Semantic Elements</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contact us: contact@example.com</p>
+    </footer>
+</body>
+</html>

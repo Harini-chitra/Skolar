@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #eee;
+        }
+        section {
+            display: flex;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Header</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <article>
+            <h2>Main Article</h2>
+            <p>HTML5 introduces new semantic elements that provide meaning to the structure of a web document. These elements include header, nav, section, article, aside, and footer.</p>
+        </article>
+        
+        <aside>
+            <h2>Related Content</h2>
+            <p>This is some related content or a sidebar with additional information.</p>
+        </aside>
+    </section>
+    
+    <footer>
+        <p>Website Footer</p>
+        <p>Contact us: <a href="#">info@example.com</a></p>
+        <p>&copy; 2024 Articles</p>
+    </footer>
+</body>
+</html>
